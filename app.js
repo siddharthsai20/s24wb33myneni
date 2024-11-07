@@ -9,7 +9,10 @@ var usersRouter = require('./routes/users');
 var gridRouter = require('./routes/grid');
 var indexRouter = require('./routes/index');
 var conferenceRouter = require('./routes/conference');
+<<<<<<< HEAD
 var pickRouter = require('./routes/pick');
+=======
+>>>>>>> a3b2531eae19465a595c39a0e43c7d3d582120b0
 
 var app = express();
 
@@ -28,7 +31,10 @@ app.use('/users', usersRouter);
 app.use('/index', indexRouter);
 app.use('/conference', conferenceRouter);
 app.use('/grid', gridRouter);
+<<<<<<< HEAD
 app.use('/pick', pickRouter);
+=======
+>>>>>>> a3b2531eae19465a595c39a0e43c7d3d582120b0
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
